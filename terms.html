@@ -37,9 +37,10 @@
     <h2>2. Description of Service</h2>
     <p>Scout is a Chrome browser extension that uses AI (powered by Anthropic's Claude) to analyze screenshots of web pages. The service includes:</p>
     <ul>
-      <li>Screenshot capture, file uploads, and AI-powered analysis</li>
+      <li>Screenshot capture and AI-powered analysis</li>
       <li>Conversation history (stored locally in your browser)</li>
       <li>Quick action prompts for common analysis tasks</li>
+      <li>PDF export of conversations</li>
     </ul>
 
     <h2>3. Account Registration</h2>
@@ -53,14 +54,14 @@
     <h2>4. Subscription Tiers</h2>
     <p>Scout offers the following tiers:</p>
     <table>
-      <tr><th>Tier</th><th>Price</th><th>Daily Query Limit</th></tr>
-      <tr><td>Free</td><td>$0/month</td><td>5 queries/day</td></tr>
-      <tr><td>Pro</td><td>$8/month</td><td>25 queries/day</td></tr>
-      <tr><td>Power</td><td>$18/month</td><td>75 queries/day</td></tr>
+      <tr><th>Tier</th><th>Price</th><th>Daily Scan Limit</th><th>AI Model</th></tr>
+      <tr><td>Free</td><td>$0/month</td><td>5 scans/day</td><td>Haiku</td></tr>
+      <tr><td>Pro</td><td>$8/month</td><td>15 scans/day</td><td>Sonnet</td></tr>
+      <tr><td>Pro+</td><td>$18/month</td><td>50 scans/day</td><td>Sonnet + Opus</td></tr>
     </table>
     <ul>
-      <li>Query limits reset daily at midnight UTC</li>
-      <li>Unused queries do not roll over</li>
+      <li>Scan limits reset daily at midnight ET</li>
+      <li>Unused scans do not roll over</li>
       <li>We reserve the right to adjust pricing and limits with 30 days notice to existing subscribers</li>
     </ul>
 
@@ -104,7 +105,7 @@
     <p>Your use of Scout is also governed by our <a href="privacy.html">Privacy Policy</a>. Key points:</p>
     <ul>
       <li>Conversations and screenshots are stored locally in your browser, not on our servers</li>
-      <li>We track only aggregate usage metrics (query counts) on our servers</li>
+      <li>We track only aggregate usage metrics (scan counts) on our servers</li>
       <li>Screenshots are sent to Anthropic's API for analysis but are not stored by us</li>
       <li>See our full <a href="privacy.html">Privacy Policy</a> for details</li>
     </ul>
